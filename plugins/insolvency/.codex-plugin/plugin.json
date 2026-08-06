@@ -1,0 +1,28 @@
+{
+  "name": "insolvency",
+  "version": "0.1.0",
+  "description": "India CIRP, claims, avoidance, liquidation, creditor-application, and resolution-plan skills.",
+  "author": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "homepage": "https://github.com/rohasnagpal/legal-ai-skills",
+  "repository": "https://github.com/rohasnagpal/legal-ai-skills",
+  "license": "MIT",
+  "keywords": ["legal", "insolvency", "IBC", "CIRP", "liquidation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rohas Legal: Insolvency",
+    "shortDescription": "India insolvency process and plan workflows.",
+    "longDescription": "Six reusable Indian insolvency workflows covering avoidance transactions, CIRP calendars, claim verification, liquidation, operational-creditor filings, and resolution-plan review.",
+    "developerName": "Rohas Nagpal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/rohasnagpal/legal-ai-skills",
+    "defaultPrompt": [
+      "Audit this CIRP timeline, claims, and compliance record.",
+      "Analyse these transactions or liquidation steps under the current IBC.",
+      "Review this creditor application or resolution plan for filing and approval."
+    ]
+  }
+}

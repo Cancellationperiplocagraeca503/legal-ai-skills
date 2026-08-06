@@ -351,12 +351,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### insolvency
 
-- **avoidance-transaction-analyst**: preferential, undervalued and fraudulent transactions **(India)**
-- **cirp-timeline-checker**: CIRP steps and statutory timelines for a matter **(India)**
-- **claim-verification-analyst**: verification and classification of creditor claims **(India)**
-- **liquidation-documenter**: liquidation process documentation **(India)**
-- **operational-creditor-application-drafter**: operational creditor insolvency applications **(India)**
-- **resolution-plan-reviewer**: resolution plans for compliance and commercial effect **(India)**
+- **[avoidance-transaction-analyst](plugins/insolvency/skills/avoidance-transaction-analyst/SKILL.md)**: preferential, undervalued and fraudulent transactions **(India)**
+- **[cirp-timeline-checker](plugins/insolvency/skills/cirp-timeline-checker/SKILL.md)**: CIRP steps and statutory timelines for a matter **(India)**
+- **[claim-verification-analyst](plugins/insolvency/skills/claim-verification-analyst/SKILL.md)**: verification and classification of creditor claims **(India)**
+- **[liquidation-documenter](plugins/insolvency/skills/liquidation-documenter/SKILL.md)**: liquidation process documentation **(India)**
+- **[operational-creditor-application-drafter](plugins/insolvency/skills/operational-creditor-application-drafter/SKILL.md)**: operational creditor insolvency applications **(India)**
+- **[resolution-plan-reviewer](plugins/insolvency/skills/resolution-plan-reviewer/SKILL.md)**: resolution plans for compliance and commercial effect **(India)**
 
 ### investigations
 

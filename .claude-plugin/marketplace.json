@@ -89,6 +89,13 @@
       "description": "Loan, guarantee, security, recovery, SARFAESI, and India securities-compliance skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "insolvency",
+      "source": "./plugins/insolvency",
+      "description": "India CIRP, claims, avoidance, liquidation, creditor-application, and resolution-plan skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
