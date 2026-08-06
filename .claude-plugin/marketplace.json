@@ -117,6 +117,13 @@
       "description": "IP enforcement, infringement, assignment, portfolio, licensing, and India trademark-proceeding skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "litigation",
+      "source": "./plugins/litigation",
+      "description": "Appeals, authorities, chronologies, evidence, witnesses, interim relief, limitation, pleadings, and submissions skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

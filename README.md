@@ -379,16 +379,16 @@ governing jurisdiction before it relies on any specific rule.
 
 ### litigation
 
-- **appeal-grounds-drafter**: grounds of appeal tied to specific findings below
-- **case-law-analyst**: turns a judgment into a case note: facts, issues, holding, ratio, obiter, and how to distinguish it
-- **chronology-builder**: builds a dated chronology from documents, with sources and gaps flagged
-- **cross-examination-planner**: lines of questioning, contradictions and impeachment points
-- **evidence-organizer**: organises evidence against the facts each item is meant to prove
-- **interim-application-drafter**: interim applications with urgency and balance of convenience
-- **limitation-checker**: works through limitation on supplied dates and flags what turns on characterisation
-- **pleadings-analyst**: reads pleadings for admissions, gaps and issues that arise
-- **witness-statement-drafter**: witness statements in the witness's own account
-- **written-submissions-drafter**: written submissions organised by issue
+- **[appeal-grounds-drafter](plugins/litigation/skills/appeal-grounds-drafter/SKILL.md)**: record-linked grounds, preserved errors, standards of review and relief
+- **[case-law-analyst](plugins/litigation/skills/case-law-analyst/SKILL.md)**: verified holdings, ratio, obiter, treatment, application and distinction
+- **[chronology-builder](plugins/litigation/skills/chronology-builder/SKILL.md)**: sourced event, knowledge and procedural chronologies with conflicts and gaps
+- **[cross-examination-planner](plugins/litigation/skills/cross-examination-planner/SKILL.md)**: ethical issue-led questioning, contradictions and admissible impeachment
+- **[evidence-organizer](plugins/litigation/skills/evidence-organizer/SKILL.md)**: evidence mapped to facts, elements, witnesses, foundations and objections
+- **[interim-application-drafter](plugins/litigation/skills/interim-application-drafter/SKILL.md)**: evidence-backed urgent relief, candour, undertakings and workable orders
+- **[limitation-checker](plugins/litigation/skills/limitation-checker/SKILL.md)**: competing deadline scenarios, accrual, exclusions, extensions and forum issues
+- **[pleadings-analyst](plugins/litigation/skills/pleadings-analyst/SKILL.md)**: claims, defences, admissions, inconsistencies, particulars and live issues
+- **[witness-statement-drafter](plugins/litigation/skills/witness-statement-drafter/SKILL.md)**: witness-owned factual evidence, exhibits, uncertainty and formalities
+- **[written-submissions-drafter](plugins/litigation/skills/written-submissions-drafter/SKILL.md)**: issue-led, authority-verified and record-linked written advocacy
 
 ### mediation
 

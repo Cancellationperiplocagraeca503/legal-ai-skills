@@ -1,0 +1,28 @@
+{
+  "name": "litigation",
+  "version": "0.1.0",
+  "description": "Appeals, authorities, chronologies, evidence, witnesses, interim relief, limitation, pleadings, and submissions skills.",
+  "author": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "homepage": "https://github.com/rohasnagpal/legal-ai-skills",
+  "repository": "https://github.com/rohasnagpal/legal-ai-skills",
+  "license": "MIT",
+  "keywords": ["legal", "litigation", "evidence", "appeals", "procedure"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rohas Legal: Litigation",
+    "shortDescription": "Record-led litigation preparation workflows.",
+    "longDescription": "Ten reusable litigation workflows covering appeals, case law, chronologies, cross-examination, evidence, interim applications, limitation, pleadings, witness statements, and written submissions.",
+    "developerName": "Rohas Nagpal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/rohasnagpal/legal-ai-skills",
+    "defaultPrompt": [
+      "Analyse this record and organise the live issues, evidence, authorities, and deadlines.",
+      "Prepare this appeal, interim application, witness evidence, or written submissions.",
+      "Build a sourced chronology, proof matrix, or cross-examination plan for this hearing."
+    ]
+  }
+}
