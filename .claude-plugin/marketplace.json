@@ -75,6 +75,13 @@
       "description": "FEMA, GST, tax appeal and assessment-reply, tax opinion, transfer pricing, and treaty-analysis skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "family",
+      "source": "./plugins/family",
+      "description": "Custody, maintenance, matrimonial, family settlement, India succession, and will-drafting skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

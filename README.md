@@ -333,12 +333,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### family
 
-- **custody-arrangement-planner**: custody and access arrangements with the child's interest reasoned
-- **maintenance-calculator**: works through a maintenance claim on supplied income and needs
-- **matrimonial-petition-drafter**: matrimonial petitions with grounds properly pleaded **(India)**
-- **settlement-deed-drafter**: settlement and separation deeds
-- **succession-advisor**: succession position on given facts and the documents required **(India)**
-- **will-drafter**: wills, with execution and attestation requirements set out
+- **[custody-arrangement-planner](plugins/family/skills/custody-arrangement-planner/SKILL.md)**: custody and access arrangements with the child's interest reasoned
+- **[maintenance-calculator](plugins/family/skills/maintenance-calculator/SKILL.md)**: works through a maintenance claim on supplied income and needs
+- **[matrimonial-petition-drafter](plugins/family/skills/matrimonial-petition-drafter/SKILL.md)**: matrimonial petitions with grounds properly pleaded **(India)**
+- **[settlement-deed-drafter](plugins/family/skills/settlement-deed-drafter/SKILL.md)**: settlement and separation deeds
+- **[succession-advisor](plugins/family/skills/succession-advisor/SKILL.md)**: succession position on given facts and the documents required **(India)**
+- **[will-drafter](plugins/family/skills/will-drafter/SKILL.md)**: wills, with execution and attestation requirements set out
 
 ### finance
 
