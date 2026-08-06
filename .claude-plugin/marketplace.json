@@ -82,6 +82,13 @@
       "description": "Custody, maintenance, matrimonial, family settlement, India succession, and will-drafting skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "finance",
+      "source": "./plugins/finance",
+      "description": "Loan, guarantee, security, recovery, SARFAESI, and India securities-compliance skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

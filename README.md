@@ -342,12 +342,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### finance
 
-- **guarantee-analyst**: guarantee and indemnity obligations and how they can be enforced
-- **loan-agreement-reviewer**: facility agreements: conditions, covenants, events of default
-- **recovery-strategy-planner**: recovery routes for a defaulted exposure, with sequence and cost
-- **sarfaesi-advisor**: SARFAESI enforcement steps and timelines **(India)**
-- **securities-compliance-checker**: securities law obligations on an issue or transaction **(India)**
-- **security-documenter**: security creation, perfection and registration documentation
+- **[guarantee-analyst](plugins/finance/skills/guarantee-analyst/SKILL.md)**: guarantee and indemnity obligations and how they can be enforced
+- **[loan-agreement-reviewer](plugins/finance/skills/loan-agreement-reviewer/SKILL.md)**: facility agreements: conditions, covenants, events of default
+- **[recovery-strategy-planner](plugins/finance/skills/recovery-strategy-planner/SKILL.md)**: recovery routes for a defaulted exposure, with sequence and cost
+- **[sarfaesi-advisor](plugins/finance/skills/sarfaesi-advisor/SKILL.md)**: SARFAESI enforcement steps and timelines **(India)**
+- **[securities-compliance-checker](plugins/finance/skills/securities-compliance-checker/SKILL.md)**: securities law obligations on an issue or transaction **(India)**
+- **[security-documenter](plugins/finance/skills/security-documenter/SKILL.md)**: security creation, perfection and registration documentation
 
 ### insolvency
 
