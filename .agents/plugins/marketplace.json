@@ -245,6 +245,18 @@
       "category": "Productivity"
     },
     {
+      "name": "property",
+      "source": {
+        "source": "local",
+        "path": "./plugins/property"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "public",
       "source": {
         "source": "local",

@@ -418,13 +418,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### property
 
-- **development-agreement-reviewer**: development and joint venture agreements for land
-- **encumbrance-analyst**: reads encumbrance records for charges, gaps and risk **(India)**
-- **lease-reviewer**: leases and licences: term, rent, renewal, exit
-- **rera-compliance-checker**: RERA registration and disclosure obligations **(India)**
-- **sale-deed-drafter**: sale deeds and conveyances
-- **stamp-duty-analyst**: stamp duty and registration position on supplied rates **(India)**
-- **title-diligence-analyst**: title chain, defects and what remains unverified **(India)**
+- **[development-agreement-reviewer](plugins/property/skills/development-agreement-reviewer/SKILL.md)**: development and joint venture agreements for land
+- **[encumbrance-analyst](plugins/property/skills/encumbrance-analyst/SKILL.md)**: reads encumbrance records for charges, gaps and risk **(India)**
+- **[lease-reviewer](plugins/property/skills/lease-reviewer/SKILL.md)**: leases and licences: term, rent, renewal, exit
+- **[rera-compliance-checker](plugins/property/skills/rera-compliance-checker/SKILL.md)**: RERA registration and disclosure obligations **(India)**
+- **[sale-deed-drafter](plugins/property/skills/sale-deed-drafter/SKILL.md)**: sale deeds and conveyances
+- **[stamp-duty-analyst](plugins/property/skills/stamp-duty-analyst/SKILL.md)**: stamp duty and registration position on supplied rates **(India)**
+- **[title-diligence-analyst](plugins/property/skills/title-diligence-analyst/SKILL.md)**: title chain, defects and what remains unverified **(India)**
 
 ### public
 
