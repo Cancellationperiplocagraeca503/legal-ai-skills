@@ -244,7 +244,7 @@ governing jurisdiction before it relies on any specific rule.
 ### litigation
 
 - **appeal-grounds-drafter**: grounds of appeal tied to specific findings below
-- [**case-law-analyst**](plugins/litigation/skills/case-law-analyst): turns a judgment into a case note: facts, issues, holding, ratio, obiter, and how to distinguish it
+- **case-law-analyst**: turns a judgment into a case note: facts, issues, holding, ratio, obiter, and how to distinguish it
 - **chronology-builder**: builds a dated chronology from documents, with sources and gaps flagged
 - **cross-examination-planner**: lines of questioning, contradictions and impeachment points
 - **evidence-organizer**: organises evidence against the facts each item is meant to prove
