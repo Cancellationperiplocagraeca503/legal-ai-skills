@@ -456,13 +456,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### startup
 
-- **cap-table-analyst**: works through dilution and ownership on supplied numbers
-- **esop-scheme-drafter**: ESOP scheme documents and grant letters
-- **founders-agreement-drafter**: founder agreements: vesting, roles, exit, IP
-- **investment-agreement-reviewer**: SHA and SSA review from the founder's or investor's side
-- **saas-terms-drafter**: SaaS terms of service and customer agreements
-- **startup-compliance-checker**: compliance obligations by stage and structure **(India)**
-- **term-sheet-reviewer**: term sheet review flagging off-market and founder-adverse terms
+- **[cap-table-analyst](plugins/startup/skills/cap-table-analyst/SKILL.md)**: works through dilution and ownership on supplied numbers
+- **[esop-scheme-drafter](plugins/startup/skills/esop-scheme-drafter/SKILL.md)**: ESOP scheme documents and grant letters
+- **[founders-agreement-drafter](plugins/startup/skills/founders-agreement-drafter/SKILL.md)**: founder agreements: vesting, roles, exit, IP
+- **[investment-agreement-reviewer](plugins/startup/skills/investment-agreement-reviewer/SKILL.md)**: SHA and SSA review from the founder's or investor's side
+- **[saas-terms-drafter](plugins/startup/skills/saas-terms-drafter/SKILL.md)**: SaaS terms of service and customer agreements
+- **[startup-compliance-checker](plugins/startup/skills/startup-compliance-checker/SKILL.md)**: compliance obligations by stage and structure **(India)**
+- **[term-sheet-reviewer](plugins/startup/skills/term-sheet-reviewer/SKILL.md)**: term sheet review flagging off-market and founder-adverse terms
 
 ### tax
 

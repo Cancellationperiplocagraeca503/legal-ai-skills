@@ -98,6 +98,13 @@
       "strict": false
     },
     {
+      "name": "startup",
+      "source": "./plugins/startup",
+      "description": "Cap table, ESOP, founders' agreement, investment agreement review, SaaS terms, India startup compliance, and term sheet review skills.",
+      "skills": ["./skills/"],
+      "strict": false
+    },
+    {
       "name": "investigations",
       "source": "./plugins/investigations",
       "description": "Evidence handling, digital review, fraud analysis, OSINT, tracing, reporting, and whistleblower skills.",
