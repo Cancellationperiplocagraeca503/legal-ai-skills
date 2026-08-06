@@ -1,0 +1,28 @@
+{
+  "name": "criminal",
+  "version": "0.1.0",
+  "description": "Criminal defence, bail, prosecution-record, quashing, strategy, and sentencing skills.",
+  "author": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "homepage": "https://github.com/rohasnagpal/legal-ai-skills",
+  "repository": "https://github.com/rohasnagpal/legal-ai-skills",
+  "license": "MIT",
+  "keywords": ["legal", "criminal", "defence", "bail", "litigation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rohas Legal: Criminal",
+    "shortDescription": "Criminal defence, bail, and case-analysis workflows.",
+    "longDescription": "Six reusable legal workflows covering anticipatory and regular bail, chargesheet analysis, defence strategy, quashing, and sentencing.",
+    "developerName": "Rohas Nagpal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/rohasnagpal/legal-ai-skills",
+    "defaultPrompt": [
+      "Assess the bail strategy and identify the evidence needed.",
+      "Analyse this prosecution record for legal and evidentiary gaps.",
+      "Build a lawful, evidence-led defence plan for this case."
+    ]
+  }
+}

@@ -314,12 +314,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### criminal
 
-- **anticipatory-bail-advisor**: anticipatory bail grounds and strategy **(India)**
-- **bail-application-drafter**: bail applications with grounds, precedent and conditions offered **(India)**
-- **chargesheet-analyst**: reads a chargesheet for gaps, contradictions and legal infirmity **(India)**
-- **defence-strategy-planner**: defence theory, lines of attack and evidence needed
-- **quashing-petition-drafter**: petitions to quash proceedings **(India)**
-- **sentencing-analyst**: mitigating and aggravating factors and the likely sentencing range
+- **[anticipatory-bail-advisor](plugins/criminal/skills/anticipatory-bail-advisor/SKILL.md)**: anticipatory bail grounds and strategy **(India)**
+- **[bail-application-drafter](plugins/criminal/skills/bail-application-drafter/SKILL.md)**: bail applications with grounds, precedent and conditions offered **(India)**
+- **[chargesheet-analyst](plugins/criminal/skills/chargesheet-analyst/SKILL.md)**: reads a chargesheet for gaps, contradictions and legal infirmity **(India)**
+- **[defence-strategy-planner](plugins/criminal/skills/defence-strategy-planner/SKILL.md)**: defence theory, lines of attack and evidence needed
+- **[quashing-petition-drafter](plugins/criminal/skills/quashing-petition-drafter/SKILL.md)**: petitions to quash proceedings **(India)**
+- **[sentencing-analyst](plugins/criminal/skills/sentencing-analyst/SKILL.md)**: mitigating and aggravating factors and reasoned sentencing scenarios
 
 ### employment
 
