@@ -428,12 +428,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### public
 
-- **government-contract-reviewer**: government contracts and their distinctive terms
-- **pil-drafter**: public interest litigation with locus and public element established **(India)**
-- **policy-note-drafter**: policy and cabinet notes
-- **rti-appeal-drafter**: first and second appeals under RTI **(India)**
-- **rti-application-drafter**: RTI applications framed to actually get an answer **(India)**
-- **tender-compliance-checker**: tender conditions and bid compliance
+- **[government-contract-reviewer](plugins/public/skills/government-contract-reviewer/SKILL.md)**: authority, procurement hierarchy, fiscal controls, performance, transparency and disputes
+- **[pil-drafter](plugins/public/skills/pil-drafter/SKILL.md)**: maintainable public interest litigation with bona fides, public injury and workable relief **(India)**
+- **[policy-note-drafter](plugins/public/skills/policy-note-drafter/SKILL.md)**: decision-ready policy and cabinet notes with options, impacts, consultation and implementation
+- **[rti-appeal-drafter](plugins/public/skills/rti-appeal-drafter/SKILL.md)**: remedy selection, limitation, grounds and relief for RTI appeals and complaints **(India)**
+- **[rti-application-drafter](plugins/public/skills/rti-application-drafter/SKILL.md)**: focused requests for identifiable records held by the correct public authority **(India)**
+- **[tender-compliance-checker](plugins/public/skills/tender-compliance-checker/SKILL.md)**: traceable requirements, evidence, deviations, blockers and submission control
 
 ### regulatory
 

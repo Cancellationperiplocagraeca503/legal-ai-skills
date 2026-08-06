@@ -145,6 +145,13 @@
       "description": "Privacy breach, transfer, processing-contract, India DPDP, DPIA, and notice skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "public",
+      "source": "./plugins/public",
+      "description": "Government contract, India PIL and RTI, policy-note, and tender-compliance skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
