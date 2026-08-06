@@ -61,6 +61,13 @@
       "description": "Adversarial review, assumption flagging, citation integrity checking, and cross-document consistency skills — a quality-control pass for a finished draft from any practice area.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "employment",
+      "source": "./plugins/employment",
+      "description": "Employment agreements, handbooks, discipline, investigations, separation, and India labour and POSH compliance skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

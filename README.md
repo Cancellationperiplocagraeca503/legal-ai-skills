@@ -323,13 +323,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### employment
 
-- **disciplinary-documenter**: the paper trail for a disciplinary proceeding
-- **employment-contract-drafter**: employment contracts with restraint, IP and termination terms
-- **handbook-drafter**: employee handbooks and HR policies
-- **labour-compliance-checker**: applicable labour law obligations for an establishment **(India)**
-- **posh-compliance-advisor**: POSH committee, procedure and reporting obligations **(India)**
-- **separation-documenter**: resignation, termination and severance documentation
-- **workplace-investigation-reporter**: structured investigation report with findings and reasoning
+- **[disciplinary-documenter](plugins/employment/skills/disciplinary-documenter/SKILL.md)**: the paper trail for a disciplinary proceeding
+- **[employment-contract-drafter](plugins/employment/skills/employment-contract-drafter/SKILL.md)**: employment contracts with restraint, IP and termination terms
+- **[handbook-drafter](plugins/employment/skills/handbook-drafter/SKILL.md)**: employee handbooks and HR policies
+- **[labour-compliance-checker](plugins/employment/skills/labour-compliance-checker/SKILL.md)**: applicable labour law obligations for an establishment **(India)**
+- **[posh-compliance-advisor](plugins/employment/skills/posh-compliance-advisor/SKILL.md)**: POSH committee, procedure and reporting obligations **(India)**
+- **[separation-documenter](plugins/employment/skills/separation-documenter/SKILL.md)**: resignation, termination and severance documentation
+- **[workplace-investigation-reporter](plugins/employment/skills/workplace-investigation-reporter/SKILL.md)**: structured investigation report with findings and reasoning
 
 ### family
 
