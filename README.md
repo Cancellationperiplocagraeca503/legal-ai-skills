@@ -409,12 +409,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### privacy
 
-- **breach-response-planner**: breach response steps, notification triggers and timelines
-- **cross-border-transfer-analyst**: lawful basis and conditions for a cross-border transfer
-- **data-processing-agreement-reviewer**: processor obligations, sub-processing and audit rights
-- **dpdp-compliance-checker**: DPDP obligations for a given processing activity **(India)**
-- **dpia-documenter**: data protection impact assessment, properly recorded
-- **privacy-policy-drafter**: privacy policies and notices matched to actual processing
+- **[breach-response-planner](plugins/privacy/skills/breach-response-planner/SKILL.md)**: containment, evidence, harm assessment, notification and remediation
+- **[cross-border-transfer-analyst](plugins/privacy/skills/cross-border-transfer-analyst/SKILL.md)**: transfer maps, mechanisms, destination risk and supplementary safeguards
+- **[data-processing-agreement-reviewer](plugins/privacy/skills/data-processing-agreement-reviewer/SKILL.md)**: roles, instructions, security, subprocessors, audits, transfers and deletion
+- **[dpdp-compliance-checker](plugins/privacy/skills/dpdp-compliance-checker/SKILL.md)**: commenced DPDP duties, evidence and implementation readiness **(India)**
+- **[dpia-documenter](plugins/privacy/skills/dpia-documenter/SKILL.md)**: necessity, proportionality, individual risk, safeguards and residual approval
+- **[privacy-policy-drafter](plugins/privacy/skills/privacy-policy-drafter/SKILL.md)**: accurate layered notices matched to verified processing
 
 ### property
 

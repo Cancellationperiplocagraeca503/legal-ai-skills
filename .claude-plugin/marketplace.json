@@ -138,6 +138,13 @@
       "description": "Counsel briefing, matter closure, conflicts, legal budgeting, and time-entry skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "privacy",
+      "source": "./plugins/privacy",
+      "description": "Privacy breach, transfer, processing-contract, India DPDP, DPIA, and notice skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
