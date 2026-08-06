@@ -68,6 +68,13 @@
       "description": "Employment agreements, handbooks, discipline, investigations, separation, and India labour and POSH compliance skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "tax",
+      "source": "./plugins/tax",
+      "description": "FEMA, GST, tax appeal and assessment-reply, tax opinion, transfer pricing, and treaty-analysis skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

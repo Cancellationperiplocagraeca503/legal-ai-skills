@@ -466,13 +466,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### tax
 
-- **fema-analyst**: FEMA position on a cross-border transaction **(India)**
-- **gst-compliance-analyst**: GST treatment and compliance obligations **(India)**
-- **tax-appeal-grounds-drafter**: grounds of appeal against an assessment or order **(India)**
-- **tax-assessment-reply-drafter**: replies to assessment and scrutiny notices **(India)**
-- **tax-opinion-drafter**: written tax opinion with the position and its risk stated
-- **transfer-pricing-documenter**: transfer pricing documentation and benchmarking record
-- **treaty-analyst**: treaty entitlement and relief on given facts
+- **[fema-analyst](plugins/tax/skills/fema-analyst/SKILL.md)**: FEMA position on a cross-border transaction **(India)**
+- **[gst-compliance-analyst](plugins/tax/skills/gst-compliance-analyst/SKILL.md)**: GST treatment and compliance obligations **(India)**
+- **[tax-appeal-grounds-drafter](plugins/tax/skills/tax-appeal-grounds-drafter/SKILL.md)**: grounds of appeal against an assessment or order **(India)**
+- **[tax-assessment-reply-drafter](plugins/tax/skills/tax-assessment-reply-drafter/SKILL.md)**: replies to assessment and scrutiny notices **(India)**
+- **[tax-opinion-drafter](plugins/tax/skills/tax-opinion-drafter/SKILL.md)**: written tax opinion with the position and its risk stated
+- **[transfer-pricing-documenter](plugins/tax/skills/transfer-pricing-documenter/SKILL.md)**: transfer pricing documentation and benchmarking record
+- **[treaty-analyst](plugins/tax/skills/treaty-analyst/SKILL.md)**: treaty entitlement and relief on given facts
 
 ### verify
 
