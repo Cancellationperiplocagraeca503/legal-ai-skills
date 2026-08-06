@@ -282,11 +282,11 @@ governing jurisdiction before it relies on any specific rule.
 
 ### consumer
 
-- **compensation-quantifier**: builds a compensation claim head by head from supplied figures
-- **consumer-complaint-drafter**: consumer complaints with jurisdiction, deficiency and relief
-- **deficiency-analyst**: tests whether the facts amount to deficiency in service or unfair trade practice
-- **opposite-party-reply-drafter**: reply to a consumer complaint on behalf of the opposite party
-- **product-liability-analyst**: product liability exposure on the given facts
+- **[compensation-quantifier](plugins/consumer/skills/compensation-quantifier/SKILL.md)**: builds a compensation claim head by head from supplied figures
+- **[consumer-complaint-drafter](plugins/consumer/skills/consumer-complaint-drafter/SKILL.md)**: consumer complaints with jurisdiction, deficiency and relief
+- **[deficiency-analyst](plugins/consumer/skills/deficiency-analyst/SKILL.md)**: tests whether the facts amount to deficiency in service or unfair trade practice
+- **[opposite-party-reply-drafter](plugins/consumer/skills/opposite-party-reply-drafter/SKILL.md)**: reply to a consumer complaint on behalf of the opposite party
+- **[product-liability-analyst](plugins/consumer/skills/product-liability-analyst/SKILL.md)**: product liability exposure on the given facts
 
 ### contracts
 

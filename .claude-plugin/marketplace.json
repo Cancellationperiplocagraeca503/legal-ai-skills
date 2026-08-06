@@ -33,6 +33,13 @@
       "description": "Conciliation proposals, neutral briefs, India pre-institution mediation advice and complete settlement-documentation skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "consumer",
+      "source": "./plugins/consumer",
+      "description": "Consumer complaint drafting, deficiency and product liability analysis, compensation quantification, and opposite-party reply skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
