@@ -261,16 +261,16 @@ governing jurisdiction before it relies on any specific rule.
 
 ### arbitration
 
-- **arbitral-award-analyst**: reads an award for findings, reasoning and enforceability
-- **arbitration-clause-reviewer**: checks a clause for seat, venue, rules, appointment and pathology
-- **arbitration-interim-relief-drafter**: interim protection applications before or during arbitration **(India)**
-- **arbitration-notice-drafter**: notice invoking arbitration, with the disputes properly framed
-- **arbitrator-appointment-advisor**: appointment mechanics, eligibility and independence disclosure
-- **award-challenge-analyst**: assesses the grounds available to challenge or resist an award
-- **emergency-arbitrator-application-drafter**: emergency relief applications under institutional rules
-- **procedural-order-drafter**: procedural orders and timetables for a tribunal
-- **statement-of-claim-drafter**: statement of claim with facts, breaches, relief and quantum
-- **statement-of-defence-drafter**: defence, counterclaim and jurisdictional objections
+- **[arbitral-award-analyst](plugins/arbitration/skills/arbitral-award-analyst/SKILL.md)**: reads an award for findings, reasoning and enforceability
+- **[arbitration-clause-reviewer](plugins/arbitration/skills/arbitration-clause-reviewer/SKILL.md)**: checks a clause for seat, venue, rules, appointment and pathology
+- **[arbitration-interim-relief-drafter](plugins/arbitration/skills/arbitration-interim-relief-drafter/SKILL.md)**: interim protection applications before or during arbitration **(India)**
+- **[arbitration-notice-drafter](plugins/arbitration/skills/arbitration-notice-drafter/SKILL.md)**: notice invoking arbitration, with the disputes properly framed
+- **[arbitrator-appointment-advisor](plugins/arbitration/skills/arbitrator-appointment-advisor/SKILL.md)**: appointment mechanics, eligibility and independence disclosure
+- **[award-challenge-analyst](plugins/arbitration/skills/award-challenge-analyst/SKILL.md)**: assesses the grounds available to challenge or resist an award
+- **[emergency-arbitrator-application-drafter](plugins/arbitration/skills/emergency-arbitrator-application-drafter/SKILL.md)**: emergency relief applications under institutional rules
+- **[procedural-order-drafter](plugins/arbitration/skills/procedural-order-drafter/SKILL.md)**: procedural orders and timetables for a tribunal
+- **[statement-of-claim-drafter](plugins/arbitration/skills/statement-of-claim-drafter/SKILL.md)**: statement of claim with facts, breaches, relief and quantum
+- **[statement-of-defence-drafter](plugins/arbitration/skills/statement-of-defence-drafter/SKILL.md)**: defence, counterclaim and jurisdictional objections
 
 ### conciliation
 

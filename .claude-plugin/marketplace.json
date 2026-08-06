@@ -12,6 +12,13 @@
       "description": "Contract review, drafting, comparison, negotiation and risk-analysis skills covering the full contract lifecycle.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "arbitration",
+      "source": "./plugins/arbitration",
+      "description": "Arbitration clause, commencement, appointment, pleading, interim-relief, procedure and award-analysis skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
