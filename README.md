@@ -55,7 +55,7 @@ No terminal, no git — just download and upload:
 
 1. Open the [latest release](https://github.com/rohasnagpal/legal-ai-skills/releases/latest)
    and download the zip for the skill you want (for example
-   `contract-reviewer.zip`).
+   `contracts-contract-reviewer.zip`).
 2. In Claude, go to **Settings → Customize → Skills → Add**, and upload the
    zip you just downloaded.
 3. Repeat for each skill you want — skills install one at a time here, there
@@ -183,7 +183,7 @@ them. This is not the ordinary ChatGPT web plugin flow.
 To give an eligible Workspace Agent particular workflows, open the agent
 builder, select **Add skill**, and upload the ZIP for each skill you want. You
 can build the ZIPs yourself from a checkout of this repository with
-`./scripts/build-skill-zips.sh` (written to `dist/contracts/`), or download
+`./scripts/build-skill-zips.sh` (written to `dist/`), or download
 them from the [latest release](https://github.com/rohasnagpal/legal-ai-skills/releases/latest).
 See OpenAI's [Workspace Agent guide](https://developers.openai.com/cookbook/articles/chatgpt-agents-sales-meeting-prep)
 for workspace permissions and availability.

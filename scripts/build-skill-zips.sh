@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 # Builds one zip per skill for one-skill upload flows in Claude and ChatGPT.
-# Each zip contains the skill's own folder as its root
-# (e.g. contract-reviewer/SKILL.md), following the open Agent Skills format.
+# Each zip contains the skill's own folder as its root, unchanged
+# (e.g. contract-reviewer/SKILL.md) -- that folder name has to keep matching
+# the skill's own `name` field, so only the zip's filename is prefixed with
+# its category (e.g. contracts-contract-reviewer.zip). That keeps dist/, and
+# a flat GitHub release asset list, browsable as more categories are added.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -15,9 +18,9 @@ for skill_md in plugins/*/skills/*/SKILL.md; do
   skills_dir="$plugin_dir/skills"
   category=$(basename "$plugin_dir")
   skill_name=$(basename "$(dirname "$skill_md")")
-  mkdir -p "$OUT_DIR/$category"
-  (cd "$skills_dir" && zip -q -r "../../../$OUT_DIR/$category/${skill_name}.zip" "$skill_name")
-  echo "built $OUT_DIR/$category/${skill_name}.zip"
+  zip_name="${category}-${skill_name}.zip"
+  (cd "$skills_dir" && zip -q -r "../../../$OUT_DIR/$zip_name" "$skill_name")
+  echo "built $OUT_DIR/$zip_name"
   count=$((count + 1))
 done
 
