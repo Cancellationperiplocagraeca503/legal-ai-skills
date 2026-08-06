@@ -437,12 +437,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### regulatory
 
-- **examination-response-drafter**: responses to regulatory examinations and show cause notices
-- **licence-application-drafter**: licence and registration applications
-- **regulatory-applicability-analyst**: asks which regulator and instrument, checks the current official text, and reports what it could not verify
-- **regulatory-change-monitor**: tracks changes to specified regulatory sources
-- **regulatory-filing-preparer**: prepares periodic and event-based regulatory filings
-- **sanctions-screening-documenter**: records a sanctions screening process and its results
+- **[examination-response-drafter](plugins/regulatory/skills/examination-response-drafter/SKILL.md)**: evidence-led examination, deficiency and show-cause responses with credible remediation
+- **[licence-application-drafter](plugins/regulatory/skills/licence-application-drafter/SKILL.md)**: complete licence and registration applications with requirements, evidence and conditions
+- **[regulatory-applicability-analyst](plugins/regulatory/skills/regulatory-applicability-analyst/SKILL.md)**: regulator and instrument mapping from current official text, with verification gaps reported
+- **[regulatory-change-monitor](plugins/regulatory/skills/regulatory-change-monitor/SKILL.md)**: controlled baselines, official-source changes, legal-effect timelines and implementation impact
+- **[regulatory-filing-preparer](plugins/regulatory/skills/regulatory-filing-preparer/SKILL.md)**: auditable periodic and event-based filings with data lineage, validation and submission evidence
+- **[sanctions-screening-documenter](plugins/regulatory/skills/sanctions-screening-documenter/SKILL.md)**: reproducible list, match, ownership, restriction and disposition records
 
 ### research
 

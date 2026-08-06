@@ -159,6 +159,13 @@
       "description": "Government contract, India PIL and RTI, policy-note, and tender-compliance skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "regulatory",
+      "source": "./plugins/regulatory",
+      "description": "Regulatory applicability, examinations, licences, change, filings, and sanctions-screening skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
