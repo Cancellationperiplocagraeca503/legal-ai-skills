@@ -49,62 +49,144 @@ one skill at a time.
 
 ## Install
 
-### Claude Code: a whole practice pack at once
+### Claude.ai (web, desktop, or mobile app)
+
+No terminal, no git — just download and upload:
+
+1. Open the [latest release](https://github.com/rohasnagpal/legal-ai-skills/releases/latest)
+   and download the zip for the skill you want (for example
+   `contract-reviewer.zip`).
+2. In Claude, go to **Settings → Customize → Skills → Add**, and upload the
+   zip you just downloaded.
+3. Repeat for each skill you want — skills install one at a time here, there
+   is no "install the whole pack" option on this surface.
+
+Your account needs code execution turned on for Skills to work; Claude will
+prompt you if it isn't.
+
+### Claude Code (the command-line tool)
+
+Claude Code is a separate terminal app from claude.ai. If you don't have it
+yet, install it first from the [quickstart guide](https://code.claude.com/docs/en/quickstart).
+
+Once it's running, type these two lines **into the Claude Code prompt itself**
+(not your regular terminal):
 
 ```
 /plugin marketplace add rohasnagpal/legal-ai-skills
 /plugin install contracts@rohas-legal
 ```
 
-Run the marketplace command once. `contracts` is the first practice pack
-built — the command above installs all ten of its skills in one step. Other
+The first line registers this repository as a source — do that once, ever.
+The second installs all ten `contracts` skills in a single step. Other
 categories will install the same way, as `/plugin install <category>@rohas-legal`,
-once they are built; see [Contents](#contents) for what is linked and ready.
+once they're built; see [Contents](#contents) for what's linked and ready.
 
-### ChatGPT Work desktop and Codex: the contracts pack
+---
 
-Add this repository as a plugin marketplace:
+### ChatGPT and Codex
+
+There is no single installation method across ChatGPT and Codex surfaces. The
+important distinction is between a **published plugin** for ordinary users and
+the **source version in this GitHub repository** for developers and testers.
+
+**Which route applies?**
+
+| Product | Can it use this repository now? | Installation route |
+| --- | --- | --- |
+| ChatGPT on the web, in **Work** | Not directly from GitHub | Install from **Plugins** after this pack is published in OpenAI's public Plugins Directory |
+| ChatGPT in ordinary **Chat**, or ChatGPT mobile | No | Plugins are not supported on these surfaces |
+| ChatGPT desktop, in **Work**, or Codex desktop | Yes, as a source/test installation | Add the GitHub marketplace with Codex CLI, then install from **Plugins** |
+| Codex CLI | Yes | Add the GitHub marketplace, then install the pack |
+| Codex IDE extension | Not as a plugin | Install individual skill folders locally instead |
+| Codex Cloud | No | Skills and plugins are not currently supported in Codex Cloud |
+| ChatGPT Workspace Agent | Only in eligible managed workspaces | Upload individual skill ZIPs in the agent builder |
+
+OpenAI's current surface list is documented in
+[Plugins](https://learn.chatgpt.com/docs/plugins) and
+[Build skills](https://learn.chatgpt.com/docs/build-skills).
+
+**ChatGPT web: what an ordinary user does**
+
+The normal end-user flow is:
+
+1. Open ChatGPT on the web.
+2. Switch from **Chat** to **Work**.
+3. Open **Plugins**.
+4. Search for **Rohas Legal: Contracts**, select the plus button, and start a
+   new Work chat.
+
+**Current status:** this pack has not yet been published in OpenAI's public
+Plugins Directory, so it will not appear in that search yet. A normal ChatGPT
+web user cannot install the current GitHub version and does not need to clone
+this repository or run terminal commands.
+
+For that end-user flow to become available, the maintainer must submit this
+skills-only plugin through OpenAI's
+[plugin submission portal](https://platform.openai.com/plugins), pass review,
+and publish the approved version. OpenAI documents that process in
+[Submit plugins](https://developers.openai.com/plugins/deploy/submission).
+
+**ChatGPT desktop or Codex: install the source version**
+
+This is the practical route for developers and testers before public release.
+Install [Codex CLI](https://learn.chatgpt.com/docs/codex-cli), then run:
 
 ```bash
 codex plugin marketplace add rohasnagpal/legal-ai-skills
+codex plugin add contracts@rohas-legal
 ```
 
-Then either:
+Alternatively, after adding the marketplace, start `codex`, enter `/plugins`,
+choose **Rohas Legal**, and install **Rohas Legal: Contracts**.
 
-- in the ChatGPT desktop app, select ChatGPT, switch to **Work**, open
-  **Plugins**, choose **Rohas Legal**, and install
-  **Rohas Legal: Contracts**; or
-- in Codex, run `codex plugin add contracts@rohas-legal`.
+In the ChatGPT desktop app, restart the app, select ChatGPT and switch to
+**Work** (or select Codex), open **Plugins**, choose **Rohas Legal**, and install
+**Rohas Legal: Contracts**. Start a new chat or Codex session after installation.
 
-Start a new chat or task after installation so the newly installed skills are
-available. Standalone skills are also visible from **Skills** in the ChatGPT
-desktop sidebar. See OpenAI's [skill](https://learn.chatgpt.com/docs/build-skills)
-and [plugin](https://developers.openai.com/plugins/build/plugins)
-documentation for the current product surfaces.
+This GitHub marketplace is a source-development and testing channel. It is not
+the public ChatGPT web distribution channel.
 
-### ChatGPT Workspace Agent: selected skills
+**Codex IDE extension: install standalone skills**
+
+The IDE extension does not support plugins. Copy only the skill folders you
+want from `plugins/contracts/skills/` into one of these locations:
+
+- `.agents/skills/` inside a project, to share the skills with that project; or
+- `~/.agents/skills/`, to make them available to your local Codex user across
+  projects.
+
+For example, from a checkout of this repository:
+
+```bash
+mkdir -p ~/.agents/skills
+cp -R plugins/contracts/skills/contract-reviewer ~/.agents/skills/
+```
+
+Restart Codex if the skill does not appear. This standalone-skill route also
+works in Codex CLI, but the plugin installation above is simpler when you want
+all ten contract skills.
+
+**Codex Cloud**
+
+Codex Cloud is not currently a supported surface for skills or plugins. There
+is therefore no legitimate installation command for this pack in Codex Cloud.
+Use Codex locally through the desktop app, CLI, or IDE extension when the task
+needs these workflows.
+
+**ChatGPT Workspace Agent: selected skills**
 
 Workspace Agents are currently a research-preview feature for ChatGPT
 Business, Enterprise, and Edu workspaces where an administrator has enabled
-them. To give a Workspace Agent only particular workflows, open the agent
-builder, select **Add skill**, and upload the ZIP for each skill you want. Build
-the ZIPs from a checkout of this repository with:
+them. This is not the ordinary ChatGPT web plugin flow.
 
-```bash
-./scripts/build-skill-zips.sh
-```
-
-The files are written to `dist/contracts/`.
+To give an eligible Workspace Agent particular workflows, open the agent
+builder, select **Add skill**, and upload the ZIP for each skill you want. You
+can build the ZIPs yourself from a checkout of this repository with
+`./scripts/build-skill-zips.sh` (written to `dist/contracts/`), or download
+them from the [latest release](https://github.com/rohasnagpal/legal-ai-skills/releases/latest).
 See OpenAI's [Workspace Agent guide](https://developers.openai.com/cookbook/articles/chatgpt-agents-sales-meeting-prep)
 for workspace permissions and availability.
-
-### Claude website and apps: one skill at a time
-
-1. Run `./scripts/build-skill-zips.sh` from a checkout of this repository.
-2. Choose the ZIP you want from `dist/contracts/`.
-3. In Claude, go to **Settings → Customize → Skills → Add** and upload it.
-
-Skills require code execution to be enabled in your Claude settings.
 
 ## Usage
 
@@ -113,10 +195,10 @@ NDA from our side," "draft a services agreement from this term sheet," "what's
 our exposure under this indemnity clause"* — and the assistant can match the
 request to the right skill automatically.
 
-In ChatGPT, type `@` and select a skill when you want to invoke it explicitly.
-In Codex CLI or the IDE extension, use `/skills` or type `$` and select the
-skill. Explicit invocation is useful where several contract workflows overlap;
-otherwise natural-language matching is sufficient.
+In ChatGPT Work, type `@` and select the plugin or a bundled skill when you want
+to invoke it explicitly. In Codex CLI or the IDE extension, use `/skills` or
+type `$` and select the skill. Explicit invocation is useful where several
+contract workflows overlap; otherwise natural-language matching is sufficient.
 
 ---
 
