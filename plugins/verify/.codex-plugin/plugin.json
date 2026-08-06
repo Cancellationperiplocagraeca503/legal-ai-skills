@@ -1,0 +1,28 @@
+{
+  "name": "verify",
+  "version": "0.1.0",
+  "description": "Adversarial review, assumption flagging, citation integrity checking, and cross-document consistency skills — a quality-control pass for a finished draft from any practice area.",
+  "author": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "homepage": "https://github.com/rohasnagpal/legal-ai-skills",
+  "repository": "https://github.com/rohasnagpal/legal-ai-skills",
+  "license": "MIT",
+  "keywords": ["legal", "verify", "quality-control", "citations", "review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rohas Legal: Verify",
+    "shortDescription": "Adversarial review, assumptions, citations, and consistency checks.",
+    "longDescription": "Four reusable quality-control workflows: attacking a draft the way opposing counsel would, surfacing every assumption it depends on, checking every citation for integrity, and cross-checking a document set for internal consistency.",
+    "developerName": "Rohas Nagpal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/rohasnagpal/legal-ai-skills",
+    "defaultPrompt": [
+      "Attack this draft the way opposing counsel would before we send it.",
+      "Surface every assumption this opinion depends on.",
+      "Check every citation in this document for integrity."
+    ]
+  }
+}

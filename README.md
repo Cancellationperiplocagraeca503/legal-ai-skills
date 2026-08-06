@@ -476,10 +476,10 @@ governing jurisdiction before it relies on any specific rule.
 
 ### verify
 
-- **adversarial-reviewer**: attacks your own draft the way opposing counsel would
-- **assumption-flagger**: surfaces every assumption a draft depends on
-- **citation-integrity-checker**: flags every citation with what must be verified and how
-- **consistency-checker**: checks facts, dates, defined terms and figures across a document set
+- **[adversarial-reviewer](plugins/verify/skills/adversarial-reviewer/SKILL.md)**: attacks your own draft the way opposing counsel would
+- **[assumption-flagger](plugins/verify/skills/assumption-flagger/SKILL.md)**: surfaces every assumption a draft depends on
+- **[citation-integrity-checker](plugins/verify/skills/citation-integrity-checker/SKILL.md)**: flags every citation with what must be verified and how
+- **[consistency-checker](plugins/verify/skills/consistency-checker/SKILL.md)**: checks facts, dates, defined terms and figures across a document set
 
 ---
 
