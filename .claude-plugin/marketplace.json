@@ -8,9 +8,9 @@
   "plugins": [
     {
       "name": "contracts",
-      "source": "./skills/contracts",
+      "source": "./plugins/contracts",
       "description": "Contract review, drafting, comparison, negotiation and risk-analysis skills covering the full contract lifecycle.",
-      "skills": ["./"],
+      "skills": ["./skills/"],
       "strict": false
     }
   ]

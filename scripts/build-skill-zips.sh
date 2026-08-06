@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Builds one zip per skill for the claude.ai "Customize > Skills > Add" upload flow.
-# Each zip contains the skill's own folder as its root (e.g. contract-reviewer/SKILL.md),
-# per https://support.claude.com/en/articles/12512198-how-to-create-custom-skills
+# Builds one zip per skill for one-skill upload flows in Claude and ChatGPT.
+# Each zip contains the skill's own folder as its root
+# (e.g. contract-reviewer/SKILL.md), following the open Agent Skills format.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -10,12 +10,13 @@ rm -rf "$OUT_DIR"
 mkdir -p "$OUT_DIR"
 
 count=0
-for skill_md in skills/*/*/SKILL.md; do
-  category_dir=$(dirname "$(dirname "$skill_md")")
-  category=$(basename "$category_dir")
+for skill_md in plugins/*/skills/*/SKILL.md; do
+  plugin_dir=$(dirname "$(dirname "$(dirname "$skill_md")")")
+  skills_dir="$plugin_dir/skills"
+  category=$(basename "$plugin_dir")
   skill_name=$(basename "$(dirname "$skill_md")")
   mkdir -p "$OUT_DIR/$category"
-  (cd "$category_dir" && zip -q -r "../../$OUT_DIR/$category/${skill_name}.zip" "$skill_name")
+  (cd "$skills_dir" && zip -q -r "../../../$OUT_DIR/$category/${skill_name}.zip" "$skill_name")
   echo "built $OUT_DIR/$category/${skill_name}.zip"
   count=$((count + 1))
 done

@@ -1,9 +1,10 @@
-An open collection of Claude skills for legal work.
+An open collection of Agent Skills for legal work, compatible with Claude,
+ChatGPT, and Codex.
 
-Each skill teaches Claude how to handle one kind of legal task properly: what
-to ask for first, what the output should contain, and what to refuse to guess
-at. Install the ones your practice needs and Claude uses them automatically
-when the work matches.
+Each skill teaches an AI assistant how to handle one kind of legal task
+properly: what to ask for first, what the output should contain, and what to
+refuse to guess at. Install the ones your practice needs and the assistant can
+use them automatically when the work matches.
 
 Built and maintained by [Rohas Nagpal](https://rohasnagpal.com).
 
@@ -11,37 +12,38 @@ Built and maintained by [Rohas Nagpal](https://rohasnagpal.com).
 
 ## What is a skill?
 
-A skill is a set of written instructions for Claude. 
+A skill is a reusable set of written instructions for an AI assistant.
 
 Think of it as the note you would leave for a junior colleague: *when someone
 hands you a judgment, here is how to read it, here is what the note should
-contain, and here is what not to assume.* You write it once. Claude follows it
-every time.
+contain, and here is what not to assume.* You write it once and reuse it across
+matters.
 
 A skill is a folder containing a file called `SKILL.md`. The top of that file
 says what the skill does and when to use it. The rest is the instructions.
 Some skills also carry reference material or small scripts alongside.
 
-**How Claude decides to use one.** You do not have to invoke a skill by name.
-Claude reads the short description of every installed skill, and when your
-request matches one, it loads those instructions and follows them. Ask "what
-does this judgment actually hold?" and the case analysis skill takes over on
-its own.
+**How the assistant decides to use one.** The assistant reads the short
+description of every installed skill and can load the full instructions when a
+request matches. ChatGPT and Codex also allow explicit invocation when you want
+to choose the workflow yourself.
 
-**Where skills work.** Anywhere you use Claude: the website, the desktop and
-mobile apps, Claude Code, and the API. Installed skills apply to normal
-conversation; you do not switch to a special mode.
+**Where skills work.** The skill folders use the open Agent Skills format.
+They can be installed individually in supported Claude and ChatGPT surfaces,
+or bundled into the `contracts` practice-pack plugin for Claude Code, ChatGPT,
+and Codex. Installations do not automatically sync between products.
 
 ## What is a plugin?
 
-A plugin is a box of skills that installs in one step.
+A plugin is an installable practice pack containing several skills.
 
 Here the skills are grouped into practice packs (e.g. arbitration, contracts,
 privacy, etc.) and each pack installs with a single command. A criminal
 defence lawyer takes the criminal and litigation packs and ignores the rest.
 
-Plugins work in Claude Code. On the Claude website you install skills
-individually instead.
+This repository provides compatible plugin manifests for Claude Code and for
+ChatGPT/Codex. Individual skill ZIPs remain available for surfaces that accept
+one skill at a time.
 
 ---
 
@@ -59,21 +61,62 @@ built — the command above installs all ten of its skills in one step. Other
 categories will install the same way, as `/plugin install <category>@rohas-legal`,
 once they are built; see [Contents](#contents) for what is linked and ready.
 
+### ChatGPT Work desktop and Codex: the contracts pack
+
+Add this repository as a plugin marketplace:
+
+```bash
+codex plugin marketplace add rohasnagpal/legal-ai-skills
+```
+
+Then either:
+
+- in the ChatGPT desktop app, select ChatGPT, switch to **Work**, open
+  **Plugins**, choose **Rohas Legal**, and install
+  **Rohas Legal: Contracts**; or
+- in Codex, run `codex plugin add contracts@rohas-legal`.
+
+Start a new chat or task after installation so the newly installed skills are
+available. Standalone skills are also visible from **Skills** in the ChatGPT
+desktop sidebar. See OpenAI's [skill](https://learn.chatgpt.com/docs/build-skills)
+and [plugin](https://developers.openai.com/plugins/build/plugins)
+documentation for the current product surfaces.
+
+### ChatGPT Workspace Agent: selected skills
+
+Workspace Agents are currently a research-preview feature for ChatGPT
+Business, Enterprise, and Edu workspaces where an administrator has enabled
+them. To give a Workspace Agent only particular workflows, open the agent
+builder, select **Add skill**, and upload the ZIP for each skill you want. Build
+the ZIPs from a checkout of this repository with:
+
+```bash
+./scripts/build-skill-zips.sh
+```
+
+The files are written to `dist/contracts/`.
+See OpenAI's [Workspace Agent guide](https://developers.openai.com/cookbook/articles/chatgpt-agents-sales-meeting-prep)
+for workspace permissions and availability.
+
 ### Claude website and apps: one skill at a time
 
-1. Open the [latest release](https://github.com/rohasnagpal/legal-ai-skills/releases/tag/latest)
-2. Download the zip for the skill you want
-3. In Claude, go to **Settings → Customize → Skills → Add** and upload it
+1. Run `./scripts/build-skill-zips.sh` from a checkout of this repository.
+2. Choose the ZIP you want from `dist/contracts/`.
+3. In Claude, go to **Settings → Customize → Skills → Add** and upload it.
 
 Skills require code execution to be enabled in your Claude settings.
 
 ## Usage
 
-Once a skill or pack is installed, there is nothing extra to do. Ask for the
-work the way you normally would — *"review this NDA from our side," "draft a
-services agreement from this term sheet," "what's our exposure under this
-indemnity clause"* — and Claude matches the request to the right skill and
-follows it automatically. No slash command, no mode to switch on.
+Once a skill or pack is installed, ask for the work normally — *"review this
+NDA from our side," "draft a services agreement from this term sheet," "what's
+our exposure under this indemnity clause"* — and the assistant can match the
+request to the right skill automatically.
+
+In ChatGPT, type `@` and select a skill when you want to invoke it explicitly.
+In Codex CLI or the IDE extension, use `/skills` or type `$` and select the
+skill. Explicit invocation is useful where several contract workflows overlap;
+otherwise natural-language matching is sufficient.
 
 ---
 
@@ -164,16 +207,16 @@ governing jurisdiction before it relies on any specific rule.
 
 ### contracts
 
-- **[clause-comparator](skills/contracts/clause-comparator/SKILL.md)**: compares the same clause across drafts or against a standard
-- **[contract-drafter](skills/contracts/contract-drafter/SKILL.md)**: drafts an agreement from a term sheet or instructions
-- **[contract-reviewer](skills/contracts/contract-reviewer/SKILL.md)**: clause-by-clause review from one side's position, with risk rated
-- **[contract-summariser](skills/contracts/contract-summariser/SKILL.md)**: short factual summary of what an agreement actually does
-- **[indemnity-liability-analyst](skills/contracts/indemnity-liability-analyst/SKILL.md)**: indemnity, limitation and cap provisions and how they interact
-- **[mou-drafter](skills/contracts/mou-drafter/SKILL.md)**: MOUs and letters of intent, with binding and non-binding parts made explicit
-- **[negotiation-position-planner](skills/contracts/negotiation-position-planner/SKILL.md)**: opening, fallback and walk-away positions on the open points
-- **[obligations-extractor](skills/contracts/obligations-extractor/SKILL.md)**: pulls every obligation, deadline and condition into a table
-- **[redline-proposer](skills/contracts/redline-proposer/SKILL.md)**: alternative wording for a problem clause, from aggressive to acceptable
-- **[termination-analyst](skills/contracts/termination-analyst/SKILL.md)**: termination rights, notice requirements and consequences
+- **[clause-comparator](plugins/contracts/skills/clause-comparator/SKILL.md)**: compares the same clause across drafts or against a standard
+- **[contract-drafter](plugins/contracts/skills/contract-drafter/SKILL.md)**: drafts an agreement from a term sheet or instructions
+- **[contract-reviewer](plugins/contracts/skills/contract-reviewer/SKILL.md)**: clause-by-clause review from one side's position, with risk rated
+- **[contract-summariser](plugins/contracts/skills/contract-summariser/SKILL.md)**: short factual summary of what an agreement actually does
+- **[indemnity-liability-analyst](plugins/contracts/skills/indemnity-liability-analyst/SKILL.md)**: indemnity, limitation and cap provisions and how they interact
+- **[mou-drafter](plugins/contracts/skills/mou-drafter/SKILL.md)**: MOUs and letters of intent, with binding and non-binding parts made explicit
+- **[negotiation-position-planner](plugins/contracts/skills/negotiation-position-planner/SKILL.md)**: opening, fallback and walk-away positions on the open points
+- **[obligations-extractor](plugins/contracts/skills/obligations-extractor/SKILL.md)**: pulls every obligation, deadline and condition into a table
+- **[redline-proposer](plugins/contracts/skills/redline-proposer/SKILL.md)**: alternative wording for a problem clause, from aggressive to acceptable
+- **[termination-analyst](plugins/contracts/skills/termination-analyst/SKILL.md)**: termination rights, notice requirements and consequences
 
 ### corporate
 
@@ -362,14 +405,14 @@ governing jurisdiction before it relies on any specific rule.
 These skills are drafting and analysis aids. They do not give legal advice and
 they are not a substitute for professional judgment.
 
-Claude can be wrong about the law, and can produce citations, section numbers
-and quotations that look correct and are not. Every skill here is written to
-mark what it has verified and what it has not: but that marking is itself
-generated text. **Check every output against primary sources before relying on
-it.**
+AI models can be wrong about the law, and can produce citations, section
+numbers and quotations that look correct and are not. Every skill here is
+written to mark what it has verified and what it has not: but that marking is
+itself generated text. **Check every output against primary sources before
+relying on it.**
 
-Skills are instructions that Claude will follow. Read a skill before you
-install it, as you would any code you run.
+Skills are instructions that an AI assistant may follow. Read a skill before
+you install it, as you would any code you run.
 
 ---
 

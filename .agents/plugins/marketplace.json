@@ -1,0 +1,20 @@
+{
+  "name": "rohas-legal",
+  "interface": {
+    "displayName": "Rohas Legal"
+  },
+  "plugins": [
+    {
+      "name": "contracts",
+      "source": {
+        "source": "local",
+        "path": "./plugins/contracts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
