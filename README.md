@@ -360,13 +360,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### investigations
 
-- **chain-of-custody-documenter**: custody records that will survive challenge
-- **digital-evidence-reviewer**: reviews digital evidence for authenticity, gaps and admissibility
-- **fraud-pattern-analyst**: identifies fraud patterns and indicators in transactional material
-- **investigation-report-drafter**: investigation reports separating evidence from inference
-- **osint-collector**: structured open-source collection plan and record
-- **transaction-tracer**: traces funds across accounts or wallets and documents the path
-- **whistleblower-report-analyst**: assesses a whistleblower report for substance and next steps
+- **[chain-of-custody-documenter](plugins/investigations/skills/chain-of-custody-documenter/SKILL.md)**: defensible physical and digital evidence custody records
+- **[digital-evidence-reviewer](plugins/investigations/skills/digital-evidence-reviewer/SKILL.md)**: provenance, integrity, authenticity, metadata, attribution and admissibility gaps
+- **[fraud-pattern-analyst](plugins/investigations/skills/fraud-pattern-analyst/SKILL.md)**: competing fraud hypotheses, transaction indicators and control failures
+- **[investigation-report-drafter](plugins/investigations/skills/investigation-report-drafter/SKILL.md)**: neutral source-linked findings separating evidence from inference
+- **[osint-collector](plugins/investigations/skills/osint-collector/SKILL.md)**: lawful, safe and reproducible open-source collection
+- **[transaction-tracer](plugins/investigations/skills/transaction-tracer/SKILL.md)**: reconciled funds tracing across accounts, entities, currencies and wallets
+- **[whistleblower-report-analyst](plugins/investigations/skills/whistleblower-report-analyst/SKILL.md)**: protected intake, risk triage and proportionate investigation planning
 
 ### ip
 

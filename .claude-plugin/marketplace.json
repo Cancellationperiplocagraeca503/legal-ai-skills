@@ -96,6 +96,13 @@
       "description": "India CIRP, claims, avoidance, liquidation, creditor-application, and resolution-plan skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "investigations",
+      "source": "./plugins/investigations",
+      "description": "Evidence handling, digital review, fraud analysis, OSINT, tracing, reporting, and whistleblower skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
