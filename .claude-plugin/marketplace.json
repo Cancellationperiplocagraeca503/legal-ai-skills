@@ -1,0 +1,17 @@
+{
+  "name": "rohas-legal",
+  "owner": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "description": "Claude skills for legal work, packaged as practice-area plugins.",
+  "plugins": [
+    {
+      "name": "contracts",
+      "source": "./skills/contracts",
+      "description": "Contract review, drafting, comparison, negotiation and risk-analysis skills covering the full contract lifecycle.",
+      "skills": ["./"],
+      "strict": false
+    }
+  ]
+}

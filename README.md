@@ -45,17 +45,19 @@ individually instead.
 
 ---
 
-## Install (Coming soon)
+## Install
 
 ### Claude Code: a whole practice pack at once
 
 ```
 /plugin marketplace add rohasnagpal/legal-ai-skills
-/plugin install litigation@rohas-legal
+/plugin install contracts@rohas-legal
 ```
 
-Replace `litigation` with any category name below. Run the marketplace command
-once; after that you can install as many packs as you like.
+Run the marketplace command once. `contracts` is the first practice pack
+built — the command above installs all ten of its skills in one step. Other
+categories will install the same way, as `/plugin install <category>@rohas-legal`,
+once they are built; see [Contents](#contents) for what is linked and ready.
 
 ### Claude website and apps: one skill at a time
 
@@ -64,6 +66,14 @@ once; after that you can install as many packs as you like.
 3. In Claude, go to **Settings → Customize → Skills → Add** and upload it
 
 Skills require code execution to be enabled in your Claude settings.
+
+## Usage
+
+Once a skill or pack is installed, there is nothing extra to do. Ask for the
+work the way you normally would — *"review this NDA from our side," "draft a
+services agreement from this term sheet," "what's our exposure under this
+indemnity clause"* — and Claude matches the request to the right skill and
+follows it automatically. No slash command, no mode to switch on.
 
 ---
 
@@ -154,16 +164,16 @@ governing jurisdiction before it relies on any specific rule.
 
 ### contracts
 
-- **clause-comparator**: compares the same clause across drafts or against a standard
-- **contract-drafter**: drafts an agreement from a term sheet or instructions
-- **contract-reviewer**: clause-by-clause review from one side's position, with risk rated
-- **contract-summariser**: short factual summary of what an agreement actually does
-- **indemnity-liability-analyst**: indemnity, limitation and cap provisions and how they interact
-- **mou-drafter**: MOUs and letters of intent, with binding and non-binding parts made explicit
-- **negotiation-position-planner**: opening, fallback and walk-away positions on the open points
-- **obligations-extractor**: pulls every obligation, deadline and condition into a table
-- **redline-proposer**: alternative wording for a problem clause, from aggressive to acceptable
-- **termination-analyst**: termination rights, notice requirements and consequences
+- **[clause-comparator](skills/contracts/clause-comparator/SKILL.md)**: compares the same clause across drafts or against a standard
+- **[contract-drafter](skills/contracts/contract-drafter/SKILL.md)**: drafts an agreement from a term sheet or instructions
+- **[contract-reviewer](skills/contracts/contract-reviewer/SKILL.md)**: clause-by-clause review from one side's position, with risk rated
+- **[contract-summariser](skills/contracts/contract-summariser/SKILL.md)**: short factual summary of what an agreement actually does
+- **[indemnity-liability-analyst](skills/contracts/indemnity-liability-analyst/SKILL.md)**: indemnity, limitation and cap provisions and how they interact
+- **[mou-drafter](skills/contracts/mou-drafter/SKILL.md)**: MOUs and letters of intent, with binding and non-binding parts made explicit
+- **[negotiation-position-planner](skills/contracts/negotiation-position-planner/SKILL.md)**: opening, fallback and walk-away positions on the open points
+- **[obligations-extractor](skills/contracts/obligations-extractor/SKILL.md)**: pulls every obligation, deadline and condition into a table
+- **[redline-proposer](skills/contracts/redline-proposer/SKILL.md)**: alternative wording for a problem clause, from aggressive to acceptable
+- **[termination-analyst](skills/contracts/termination-analyst/SKILL.md)**: termination rights, notice requirements and consequences
 
 ### corporate
 
