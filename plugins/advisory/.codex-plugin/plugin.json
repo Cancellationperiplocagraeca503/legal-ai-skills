@@ -1,0 +1,28 @@
+{
+  "name": "advisory",
+  "version": "0.1.0",
+  "description": "Client intake, communication, opinion, risk-assessment, engagement-letter, and notice drafting and reply skills for day-to-day advisory work.",
+  "author": {
+    "name": "Rohas Nagpal",
+    "url": "https://rohasnagpal.com"
+  },
+  "homepage": "https://github.com/rohasnagpal/legal-ai-skills",
+  "repository": "https://github.com/rohasnagpal/legal-ai-skills",
+  "license": "MIT",
+  "keywords": ["legal", "advisory", "client-communication", "opinions", "notices"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rohas Legal: Advisory",
+    "shortDescription": "Client intake, updates, opinions, risk and notice workflows.",
+    "longDescription": "Eight reusable legal workflows covering client intake, status updates, engagement letters, plain-language explanation, formal opinions, risk assessment, demand notices, and notice replies.",
+    "developerName": "Rohas Nagpal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/rohasnagpal/legal-ai-skills",
+    "defaultPrompt": [
+      "Turn this client call transcript into a structured matter summary.",
+      "Draft a formal opinion answering this question, with reasoning and caveats.",
+      "Lay out our options here with the risk and likely outcome of each."
+    ]
+  }
+}

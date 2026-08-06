@@ -79,8 +79,9 @@ Once it's running, type these two lines **into the Claude Code prompt itself**
 
 The first line registers this repository as a source — do that once, ever.
 The second installs all ten `contracts` skills in a single step. Other
-categories will install the same way, as `/plugin install <category>@rohas-legal`,
-once they're built; see [Contents](#contents) for what's linked and ready.
+practice packs install the same way — `/plugin install <category>@rohas-legal`,
+for example `arbitration` or `advisory` — as they're built; see
+[Contents](#contents) for what's linked and ready.
 
 ---
 
@@ -250,14 +251,14 @@ governing jurisdiction before it relies on any specific rule.
 
 ### advisory
 
-- **client-intake**: turns a messy client narrative into a structured matter summary, separating facts from assumptions
-- **client-update-drafter**: plain, honest status updates for a client on a running matter
-- **demand-notice-drafter**: pre-litigation demand notices with the claim properly particularised
-- **engagement-letter-drafter**: scope, fees, exclusions and conflict position in a client engagement letter
-- **legal-explainer**: restates a legal position in language a client can actually act on
-- **legal-opinion-drafter**: structured written opinion with question, analysis, conclusion and caveats
-- **legal-risk-assessor**: sets out the options on a decision, with the risk and likely outcome of each
-- **notice-reply-drafter**: replies to a legal notice, dealing with each allegation in turn
+- **[client-intake](plugins/advisory/skills/client-intake/SKILL.md)**: turns a messy client narrative into a structured matter summary, separating facts from assumptions
+- **[client-update-drafter](plugins/advisory/skills/client-update-drafter/SKILL.md)**: plain, honest status updates for a client on a running matter
+- **[demand-notice-drafter](plugins/advisory/skills/demand-notice-drafter/SKILL.md)**: pre-litigation demand notices with the claim properly particularised
+- **[engagement-letter-drafter](plugins/advisory/skills/engagement-letter-drafter/SKILL.md)**: scope, fees, exclusions and conflict position in a client engagement letter
+- **[legal-explainer](plugins/advisory/skills/legal-explainer/SKILL.md)**: restates a legal position in language a client can actually act on
+- **[legal-opinion-drafter](plugins/advisory/skills/legal-opinion-drafter/SKILL.md)**: structured written opinion with question, analysis, conclusion and caveats
+- **[legal-risk-assessor](plugins/advisory/skills/legal-risk-assessor/SKILL.md)**: sets out the options on a decision, with the risk and likely outcome of each
+- **[notice-reply-drafter](plugins/advisory/skills/notice-reply-drafter/SKILL.md)**: replies to a legal notice, dealing with each allegation in turn
 
 ### arbitration
 

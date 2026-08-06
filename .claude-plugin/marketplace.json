@@ -19,6 +19,13 @@
       "description": "Arbitration clause, commencement, appointment, pleading, interim-relief, procedure and award-analysis skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "advisory",
+      "source": "./plugins/advisory",
+      "description": "Client intake, updates, opinions, risk assessment, engagement letters and notice drafting and reply skills for day-to-day advisory work.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
