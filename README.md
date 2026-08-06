@@ -446,13 +446,13 @@ governing jurisdiction before it relies on any specific rule.
 
 ### research
 
-- **comparative-analyst**: compares the position across jurisdictions or statutes
-- **forum-jurisdiction-analyst**: which forum, which jurisdiction, and what turns on the choice
-- **issue-spotter**: reads a fact pattern for issues, causes of action and threshold problems
-- **legislative-history-analyst**: traces how a provision reached its current form
-- **precedent-mapper**: maps the authorities on a point and how they relate
-- **research-synthesiser**: pulls scattered research into a single reasoned position
-- **statutory-interpreter**: interprets a provision using the accepted canons, showing the reasoning
+- **[comparative-analyst](plugins/research/skills/comparative-analyst/SKILL.md)**: compares the position across jurisdictions or statutes
+- **[forum-jurisdiction-analyst](plugins/research/skills/forum-jurisdiction-analyst/SKILL.md)**: which forum, which jurisdiction, and what turns on the choice
+- **[issue-spotter](plugins/research/skills/issue-spotter/SKILL.md)**: reads a fact pattern for issues, causes of action and threshold problems
+- **[legislative-history-analyst](plugins/research/skills/legislative-history-analyst/SKILL.md)**: traces how a provision reached its current form
+- **[precedent-mapper](plugins/research/skills/precedent-mapper/SKILL.md)**: maps the authorities on a point and how they relate
+- **[research-synthesiser](plugins/research/skills/research-synthesiser/SKILL.md)**: pulls scattered research into a single reasoned position
+- **[statutory-interpreter](plugins/research/skills/statutory-interpreter/SKILL.md)**: interprets a provision using the accepted canons, showing the reasoning
 
 ### startup
 

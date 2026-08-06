@@ -166,6 +166,13 @@
       "description": "Regulatory applicability, examinations, licences, change, filings, and sanctions-screening skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "research",
+      "source": "./plugins/research",
+      "description": "Comparative analysis, forum/jurisdiction analysis, issue-spotting, legislative history, precedent mapping, research synthesis, and statutory interpretation skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }
