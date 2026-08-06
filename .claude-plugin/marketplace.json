@@ -103,6 +103,13 @@
       "description": "Evidence handling, digital review, fraud analysis, OSINT, tracing, reporting, and whistleblower skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "ip",
+      "source": "./plugins/ip",
+      "description": "IP enforcement, infringement, assignment, portfolio, licensing, and India trademark-proceeding skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

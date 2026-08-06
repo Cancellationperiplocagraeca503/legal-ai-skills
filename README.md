@@ -370,12 +370,12 @@ governing jurisdiction before it relies on any specific rule.
 
 ### ip
 
-- **cease-desist-drafter**: cease and desist notices with the right claimed and the demand made
-- **infringement-analyst**: infringement analysis element by element, with defences considered
-- **ip-assignment-drafter**: assignments and transfers of IP
-- **ip-portfolio-analyst**: reviews a portfolio for gaps, renewals and risk
-- **licensing-agreement-reviewer**: scope, territory, royalty and quality control in a licence
-- **trademark-opposition-drafter**: opposition and rectification pleadings **(India)**
+- **[cease-desist-drafter](plugins/ip/skills/cease-desist-drafter/SKILL.md)**: proportionate source-backed IP enforcement notices
+- **[infringement-analyst](plugins/ip/skills/infringement-analyst/SKILL.md)**: right-specific infringement, defence, validity and remedy analysis
+- **[ip-assignment-drafter](plugins/ip/skills/ip-assignment-drafter/SKILL.md)**: precise IP ownership transfers, schedules and recordal steps
+- **[ip-portfolio-analyst](plugins/ip/skills/ip-portfolio-analyst/SKILL.md)**: ownership, coverage, deadlines, exploitation, encumbrance and risk audits
+- **[licensing-agreement-reviewer](plugins/ip/skills/licensing-agreement-reviewer/SKILL.md)**: licence scope, economics, quality control, improvements and exit effects
+- **[trademark-opposition-drafter](plugins/ip/skills/trademark-opposition-drafter/SKILL.md)**: opposition, counterstatement and rectification materials **(India)**
 
 ### litigation
 
