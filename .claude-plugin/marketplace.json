@@ -40,6 +40,13 @@
       "description": "Consumer complaint drafting, deficiency and product liability analysis, compensation quantification, and opposite-party reply skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "corporate",
+      "source": "./plugins/corporate",
+      "description": "Corporate resolutions, minutes, diligence, restructuring, shareholder-agreement review and India compliance skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

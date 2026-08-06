@@ -303,14 +303,14 @@ governing jurisdiction before it relies on any specific rule.
 
 ### corporate
 
-- **board-resolution-drafter**: board and shareholder resolutions in correct form
-- **listing-obligations-checker**: continuous disclosure and listing obligations **(India)**
-- **m-and-a-diligence-checker**: diligence checklist and issue log for a transaction
-- **minutes-drafter**: minutes that record decisions and dissent properly
-- **related-party-analyst**: identifies related party transactions and the approvals required **(India)**
-- **restructuring-documenter**: documentation trail for a corporate restructuring
-- **secretarial-compliance-checker**: secretarial and filing obligations for a company **(India)**
-- **shareholder-agreement-reviewer**: control, transfer, exit and deadlock provisions
+- **[board-resolution-drafter](plugins/corporate/skills/board-resolution-drafter/SKILL.md)**: board and shareholder resolutions in correct form
+- **[listing-obligations-checker](plugins/corporate/skills/listing-obligations-checker/SKILL.md)**: continuous disclosure and listing obligations **(India)**
+- **[m-and-a-diligence-checker](plugins/corporate/skills/m-and-a-diligence-checker/SKILL.md)**: diligence checklist and issue log for a transaction
+- **[minutes-drafter](plugins/corporate/skills/minutes-drafter/SKILL.md)**: minutes that record decisions and dissent properly
+- **[related-party-analyst](plugins/corporate/skills/related-party-analyst/SKILL.md)**: identifies related party transactions and the approvals required **(India)**
+- **[restructuring-documenter](plugins/corporate/skills/restructuring-documenter/SKILL.md)**: documentation trail for a corporate restructuring
+- **[secretarial-compliance-checker](plugins/corporate/skills/secretarial-compliance-checker/SKILL.md)**: secretarial and filing obligations for a company **(India)**
+- **[shareholder-agreement-reviewer](plugins/corporate/skills/shareholder-agreement-reviewer/SKILL.md)**: control, transfer, exit and deadlock provisions
 
 ### criminal
 
