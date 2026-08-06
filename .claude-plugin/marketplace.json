@@ -26,6 +26,13 @@
       "description": "Client intake, updates, opinions, risk assessment, engagement letters and notice drafting and reply skills for day-to-day advisory work.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "conciliation",
+      "source": "./plugins/conciliation",
+      "description": "Conciliation proposals, neutral briefs, India pre-institution mediation advice and complete settlement-documentation skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

@@ -275,10 +275,10 @@ governing jurisdiction before it relies on any specific rule.
 
 ### conciliation
 
-- **conciliation-proposal-drafter**: settlement proposals framed for a conciliation
-- **conciliator-brief-drafter**: brief putting a party's position to a conciliator
-- **pre-institution-mediation-advisor**: mandatory pre-institution mediation requirements **(India)**
-- **settlement-terms-drafter**: settlement terms that are complete and enforceable
+- **[conciliation-proposal-drafter](plugins/conciliation/skills/conciliation-proposal-drafter/SKILL.md)**: settlement proposals framed for a conciliation
+- **[conciliator-brief-drafter](plugins/conciliation/skills/conciliator-brief-drafter/SKILL.md)**: brief putting a party's position to a conciliator
+- **[pre-institution-mediation-advisor](plugins/conciliation/skills/pre-institution-mediation-advisor/SKILL.md)**: mandatory pre-institution mediation requirements **(India)**
+- **[settlement-terms-drafter](plugins/conciliation/skills/settlement-terms-drafter/SKILL.md)**: settlement terms that are complete and enforceable
 
 ### consumer
 
