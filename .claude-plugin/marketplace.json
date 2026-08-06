@@ -124,6 +124,20 @@
       "description": "Appeals, authorities, chronologies, evidence, witnesses, interim relief, limitation, pleadings, and submissions skills.",
       "skills": ["./skills/"],
       "strict": false
+    },
+    {
+      "name": "mediation",
+      "source": "./plugins/mediation",
+      "description": "Caucus strategy, mediation brief and opening, outcome documentation, party-interest analysis, and settlement evaluation skills.",
+      "skills": ["./skills/"],
+      "strict": false
+    },
+    {
+      "name": "practice",
+      "source": "./plugins/practice",
+      "description": "Counsel briefing, matter closure, conflicts, legal budgeting, and time-entry skills.",
+      "skills": ["./skills/"],
+      "strict": false
     }
   ]
 }

@@ -392,20 +392,20 @@ governing jurisdiction before it relies on any specific rule.
 
 ### mediation
 
-- **caucus-strategy-planner**: what to disclose and hold back in private session
-- **mediation-brief-drafter**: mediation brief setting out position and interests
-- **mediation-opening-drafter**: opening statement for a mediation
-- **mediation-outcome-documenter**: records what was agreed and what remains open
-- **party-interest-analyst**: separates stated positions from underlying interests on both sides
-- **settlement-evaluator**: tests a settlement offer against the litigation alternative
+- **[caucus-strategy-planner](plugins/mediation/skills/caucus-strategy-planner/SKILL.md)**: what to disclose and hold back in private session
+- **[mediation-brief-drafter](plugins/mediation/skills/mediation-brief-drafter/SKILL.md)**: mediation brief setting out position and interests
+- **[mediation-opening-drafter](plugins/mediation/skills/mediation-opening-drafter/SKILL.md)**: opening statement for a mediation
+- **[mediation-outcome-documenter](plugins/mediation/skills/mediation-outcome-documenter/SKILL.md)**: records what was agreed and what remains open
+- **[party-interest-analyst](plugins/mediation/skills/party-interest-analyst/SKILL.md)**: separates stated positions from underlying interests on both sides
+- **[settlement-evaluator](plugins/mediation/skills/settlement-evaluator/SKILL.md)**: tests a settlement offer against the litigation alternative
 
 ### practice
 
-- **brief-to-counsel-drafter**: brief to counsel with facts, issues and specific instructions
-- **closure-report-drafter**: matter closure report and file note
-- **conflict-checker**: structured conflict check across parties and related entities
-- **costing-estimator**: cost estimate broken down by stage and assumption
-- **time-narrative-drafter**: clear, defensible time entry narratives
+- **[brief-to-counsel-drafter](plugins/practice/skills/brief-to-counsel-drafter/SKILL.md)**: focused instructions, facts, issues, record, questions and logistics
+- **[closure-report-drafter](plugins/practice/skills/closure-report-drafter/SKILL.md)**: controlled closure, client handoff, obligations, finances and retention
+- **[conflict-checker](plugins/practice/skills/conflict-checker/SKILL.md)**: confidential party mapping, searches, escalation and clearance records
+- **[costing-estimator](plugins/practice/skills/costing-estimator/SKILL.md)**: transparent stage budgets, scenarios, assumptions and change controls
+- **[time-narrative-drafter](plugins/practice/skills/time-narrative-drafter/SKILL.md)**: accurate, specific and privilege-aware legal time entries
 
 ### privacy
 
